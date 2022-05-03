@@ -21,6 +21,7 @@ namespace BikeRentalService
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //Hello World!
                 });
     }
 }
